@@ -6,14 +6,14 @@ namespace VariablesCS
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("");
+
             Console.WriteLine("Variables, Variables, Variables!");
 
             Console.WriteLine("");
 
             var numberOfCoffeeCups = 1;
-
             var fullName = "Danny Le";
-
             var rightNow = DateTime.Now;
 
             Console.WriteLine($"I drink {numberOfCoffeeCups} cup of coffee a day, my name is {fullName}, and it is {rightNow} ");
@@ -24,7 +24,15 @@ namespace VariablesCS
 
             var userName = Console.ReadLine();
 
+            Console.WriteLine("");
+
             Console.WriteLine($"It's a pleasure {userName}!");
+
+            if (userName == "Alice")
+
+            {
+                Console.WriteLine("But maybe you should stay away from rabbitholes...");
+            }
 
             Console.WriteLine("");
 
@@ -94,7 +102,7 @@ namespace VariablesCS
 
             Console.WriteLine("");
 
-            Console.Write("And finally modulo operation...");
+            Console.Write("And finally a modulo operation...");
 
             var remainder = ($"{firstNumberAsString} % {secondNumberAsString}");
 
