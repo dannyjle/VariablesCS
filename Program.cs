@@ -92,9 +92,9 @@ namespace VariablesCS
 
             Console.Write("Divived!");
 
-            var quotient = ($"{firstNumberAsString} * {secondNumberAsString}");
+            var quotient = ($"{firstNumberAsString} / {secondNumberAsString}");
 
-            var valueQuotient = double.Parse(firstOperand) * double.Parse(secondOperand);
+            var valueQuotient = double.Parse(firstOperand) / double.Parse(secondOperand);
 
             Console.WriteLine("");
 
